@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>51ppx - video</title>
+<meta http-equiv="Keywords" content="msvod">
+<meta http-equiv="Description" content="高清视频">
+<link href="./pc_resource/css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./pc_resource/jquery.min.js"></script>
+<script src="https://127.0.0.1" language="JavaScript"></script>
+<script src="./pc_resource/uaredirect.js" type="text/javascript"></script>
+<script type="text/javascript">uaredirect("wap.html");</script>
+<script language="javascript" type="text/javascript">
+var initializationTime=(new Date()).getTime();
+function showLeftTime()
+{
+var now=new Date();
+var year=now.getFullYear();
+document.all.show.innerHTML=year;
+var timeID=setTimeout;
+}
+</script>
+<!--[if lt IE 9]>
+		<script src="js/html5shiv.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body onload="showLeftTime()">
+<div class="home">
+	<div class="section">
+		
+		<div class="hero-video">
+          <video id="bg-vid" src="./pc_resource/bgVideo.mp4" poster="./pc_resource/bgVideo.gif" controls="" preload="auto" autoplay="" loop=""></video>
+		</div>
+		
+		<div class="shadow-bg"></div>
+		<div class="shadow"></div>
+		
+		
+		
+		<div class="container">
+		<div class="logo"><a href="https://www.ppx25.com/"><img src="https://www.ppx25.com/images/logo.png"></a></div>
+		<h3 class="f16">皮皮虾视频只适合18岁或以上人观看</h3>
+		<p class="f16">18岁以下禁止访问</p>
+		<div class="golink" style="color:#00CCFF"><a href="https://www.ppx25.com/">最新域名：ppx25.com</a></div>
+		<div class="outurl"><a href="#" onclick="window.close();">未满18岁点这里离开</a></div>
+		<div class="sponsor" style="display: none;">
+			<h4 class="f14">赞助商</h4>
+			  <a href="https://www.ppx25.com/" target="_blank"><img src="./pc_resource/hfad.gif" alt=""></a> </div>
+		<div class="foot"><span id="show">2017</span> © 51ppx  版权所有
+
+	</div>
+		</div>
+		<div class="vertical-align-hiddendiv "></div>
+		
+	</div>
+	</div>
+	
+	<script>
+	//视频自动播放
+	var vid = document.getElementById("bg-vid");
+	vid.play();
+	</script>
+	
+	
+	
+
+
+</body></html>
